@@ -1,0 +1,2 @@
+-- SQLite
+SELECT * FROM USER;

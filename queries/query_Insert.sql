@@ -1,0 +1,4 @@
+-- SQLite
+INSERT INTO USER ("ID", "NAME")
+VALUES (4, "DRI");
+   

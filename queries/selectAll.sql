@@ -1,2 +1,2 @@
 -- SQLite
-SELECT * FROM USER;
+SELECT * FROM emp_tab;

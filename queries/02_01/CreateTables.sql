@@ -1,7 +1,3 @@
-CREATE TABLE employees_dept_40 (
-  SELECT empno, ename, job,salary 
-  FROM emp_tab WHERE deptno=40); 
-
 CREATE TABLE countries 
   (country_id NUMBER(10), 
   country_name VARCHAR2(20), 

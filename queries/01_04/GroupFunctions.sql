@@ -10,14 +10,26 @@ SELECT MIN(name),MAX(name) FROM emp_tab;
 
 SELECT COUNT(*) FROM emp_tab;
 
-SELECT COUNT(name) FROM emp_tab WHERE manager=7003;
+SELECT COUNT(name) FROM emp_tab 
+WHERE manager=7003;
 
 SELECT COUNT(DISTINCT(empno)) FROM emp_tab;
 
-SELECT MAX(salary),manager FROM emp_tab GROUP BY manager ORDER BY MAX(salary) DESC;
+SELECT MAX(salary),manager 
+FROM emp_tab 
+GROUP BY manager 
+ORDER BY MAX(salary) DESC;
 
-SELECT deptno, MAX(salary) FROM emp_tab WHERE MAX(salary)>=3000 GROUP BY deptno;
+SELECT deptno, MAX(salary) 
+FROM emp_tab 
+WHERE MAX(salary)>=3000 
+GROUP BY deptno;
 
-SELECT deptno, MAX(salary) FROM emp_tab GROUP BY deptno;
+SELECT deptno, MAX(salary) 
+FROM emp_tab 
+GROUP BY deptno;
 
-SELECT deptno, MAX(salary) FROM emp_tab GROUP BY deptno HAVING MAX(salary)>3000;
+SELECT deptno, MAX(salary) 
+FROM emp_tab 
+GROUP BY deptno 
+HAVING MAX(salary)>3000;

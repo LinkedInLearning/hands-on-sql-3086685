@@ -11,6 +11,3 @@ WHERE salary=(
   SELECT salary 
   FROM emp_tab 
   WHERE salary<1000);
-
---Integrity constraint error
-DELETE FROM dept_tab WHERE deptno=10;

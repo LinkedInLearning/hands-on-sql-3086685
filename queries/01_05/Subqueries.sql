@@ -5,7 +5,7 @@ WHERE deptno=(
   FROM emp_tab 
   WHERE empno=7001);
 
---Fetches all states from states_tab which belong to the same country as for California
+--Using same tables in the outer and inner queries
 SELECT * FROM states_tab 
 WHERE country_id=(
   SELECT country_id 
@@ -15,12 +15,15 @@ WHERE country_id=(
 SELECT * FROM states_tab 
 WHERE country_id=(1); 
 
---Fetches the country details for the country with same country_id as for California
+--Using different tables in the outer and inner queries
 SELECT * FROM country_tab 
 WHERE country_id=(
   SELECT country_id 
   FROM states_tab 
   WHERE state_name='CALIFORNIA');
+
+SELECT * FROM country_tab
+WHERE country_id=(1);
 
 --Using group functions
 SELECT empno ,name, salary 
@@ -28,9 +31,17 @@ FROM emp_tab
 WHERE salary=(
   SELECT MAX(salary) FROM emp_tab); 
 
---Retrieves all salaries of employees who belong to dept 30
+SELECT empno,name,salary
+FROM emp_tab
+WHERE salary=(5000);
+
+--Retrieves all salaries of employees who belong to dept 30 using IN
 SELECT empno,name,salary,deptno 
 FROM emp_tab 
 WHERE salary IN (
   SELECT salary FROM emp_tab 
   WHERE deptno=30);
+
+SELECT empno,name,salary,deptno 
+FROM emp_tab 
+WHERE salary IN (2975,3000,800,1300);  

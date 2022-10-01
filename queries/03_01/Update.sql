@@ -22,6 +22,3 @@ SET deptno = (
   FROM emp_tab 
   WHERE empno=7001) 
 WHERE empno=7001;
-
---Integrity constraint error
-Update emp_tab SET deptno=500 WHERE deptno=10;

@@ -32,5 +32,5 @@ Deepa Maddala
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/deepa-maddala?u=104).
 
 [lil-course-url]: https://www.linkedin.com/learning/hands-on-introduction-sql
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFce8T-RjMmAg/learning-public-crop_675_1200/0/1667324559752?e=1667955600&v=beta&t=fSwTEREJ2cKzBWmkRcZcirnwL306jvMsnhG0fjLRayA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFce8T-RjMmAg/learning-public-crop_675_1200/0/1667324559752?e=1668574800&v=beta&t=p0bOyw7M4mnb9P3CQZqv_BZM4cQDsZx9ZpaxVEEHuys
 [gcs-video-url]: https://www.linkedin.com/learning/hands-on-introduction-sql/using-github-codespaces-with-this-course

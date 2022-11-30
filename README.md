@@ -1,7 +1,7 @@
 # Hands-On Introduction: SQL 
 This is the repository for the LinkedIn Learning course Hands-On Introduction: SQL. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![Hands-On Introduction: SQL ][lil-thumbnail-url]
+![1667324559752](https://user-images.githubusercontent.com/25848438/204876476-c6321cac-9f17-433f-ba07-a96065ff97b0.jpeg)
 
 Join instructor Deepa Maddala as she uses hands-on lessons to teach you the tools, techniques, and know-how that you need to start using SQL from day one. Deepa guides you through using the Select statement to fetch and filter data, creating and adding to tables and data, modifying existing tables, and what to use in different scenarios. She includes simple examples with each topic she covers.<br><br>The best way to learn a language is to use it in practice. That’s why this course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out the [Using GitHub Codespaces with this course][gcs-video-url] video to learn how to get started.
 
@@ -32,5 +32,4 @@ Deepa Maddala
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/deepa-maddala?u=104).
 
 [lil-course-url]: https://www.linkedin.com/learning/hands-on-introduction-sql
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFce8T-RjMmAg/learning-public-crop_675_1200/0/1667324559752?e=1668574800&v=beta&t=p0bOyw7M4mnb9P3CQZqv_BZM4cQDsZx9ZpaxVEEHuys
 [gcs-video-url]: https://www.linkedin.com/learning/hands-on-introduction-sql/using-github-codespaces-with-this-course
